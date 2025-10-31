@@ -25,7 +25,7 @@
 //  Description     : It is used to check whether the number is even or odd
 //  Input           : int
 //  Output          : bool
-//  Author          : Charkradhar Rawaji Dugade
+//  Author          : Chakradhar Rawaji Dugade
 //  Date            : 31/10/2025
 //
 /////////////////////////////////////////////////////////////////////
@@ -78,3 +78,4 @@ int main()
 //  Input1 : -4      Output : The number is even
 //   
 /////////////////////////////////////////////////////////////////////
+
