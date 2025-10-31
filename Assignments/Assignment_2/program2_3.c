@@ -23,7 +23,7 @@
 //  Description     : It is used to show Hello if input is less than 10 otherwise Demo
 //  Input           : int
 //  Output          : void
-//  Author          : Charkradhar Rawaji Dugade
+//  Author          : Chakradhar Rawaji Dugade
 //  Date            : 31/10/2025
 //
 /////////////////////////////////////////////////////////////////////
@@ -68,3 +68,4 @@ int main()
 //  Input1 : 4       Output : Hello
 //   
 /////////////////////////////////////////////////////////////////////
+
