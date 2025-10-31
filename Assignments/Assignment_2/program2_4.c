@@ -22,7 +22,7 @@
 //  Description     : It is used to display first number in second number of times
 //  Input           : int
 //  Output          : void
-//  Author          : Charkradhar Rawaji Dugade
+//  Author          : Chakradhar Rawaji Dugade
 //  Date            : 31/10/2025
 //
 /////////////////////////////////////////////////////////////////////
@@ -77,3 +77,4 @@ int main()
 //  Input1 : -2      Input2 : 0       Output : 
 //  
 /////////////////////////////////////////////////////////////////////
+
