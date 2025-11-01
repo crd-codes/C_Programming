@@ -59,15 +59,9 @@ int main()
     int iValue1 = 0, iValue2 = 0, iValue3 = 0;                    // To accept user input
     int iRet = 0;                                                 // To store result
 
-    printf("Enter first numbers: \n");
-    scanf("%d", &iValue1);
-
-    printf("Enter second numbers: \n");
-    scanf("%d", &iValue2);
-
-    printf("Enter third numbers: \n");
-    scanf("%d", &iValue3);
-
+    printf("Enter three numbers: \n");
+    scanf("%d%d%d", &iValue1,&iValue2,&iValue3);
+    
     iRet = FindLargest(iValue1, iValue2, iValue3);                // Function call
 
     printf("The Largest number is %d\n", iRet);
@@ -84,3 +78,4 @@ int main()
 //  Input3 : -3   -9   -1     Output : The Largest number is -1
 //  
 /////////////////////////////////////////////////////////////////////
+
