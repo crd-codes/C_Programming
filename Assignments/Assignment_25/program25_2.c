@@ -40,9 +40,11 @@ int main()
         scanf("%d",&iPtr[iCnt]);
     }
 
+    printf("\n");
     Display(iPtr, iLength);
 
     free(iPtr);
 
     return 0;
+
 }
