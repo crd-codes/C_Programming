@@ -7,7 +7,7 @@ int Frequency(int Arr[], int iSize)
 
     for(iCnt = 0; iCnt < iSize; iCnt++)
     {
-        if(iCnt % 2 == 0)
+        if(Arr[iCnt] % 2 == 0)
         {
             iCountEven++;
         }
@@ -49,4 +49,5 @@ int main()
     free(ptr);
     
     return 0;
+
 }
