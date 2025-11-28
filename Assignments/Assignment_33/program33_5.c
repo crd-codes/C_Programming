@@ -1,10 +1,5 @@
 #include<stdio.h>
 
-#define TRUE 1
-#define FALSE 0
-
-typedef int BOOL;
-
 void DisplaySchedule(char chDiv)
 {
     if(chDiv == 'a' || chDiv == 'A')
@@ -40,4 +35,5 @@ int main()
     DisplaySchedule(cValue); 
 
     return 0;
+
 }
