@@ -2,26 +2,19 @@
 
 void Reverse(char *str)
 {
-    char *start = str;
-    char *end = str;
+    char *temp = str;
 
-    char temp = '\0';
-
-    while(*end != '\0')
+    while(*str != '\0')
     {
-        end++;
+        str++;
     }
-    end--;
 
-    while(start < end)
+    while(str >= temp)
     {
-        temp = *start;
-        *start = *end;
-        *end = temp;
-
-        start++;
-        end--;
+        printf("%c",*str);
+        str--;
     }
+    printf("\n");     
 }
 
 int main()
@@ -29,11 +22,9 @@ int main()
     char Arr[50] = {'\0'};
 
     printf("Enter string :\n");
-    scanf("%[^\n]s", Arr);
+    scanf("%[^'\n']s", Arr);
 
     Reverse(Arr);
-
-    printf("Updated string : %s", Arr);
 
     return 0;
 }
